@@ -1,0 +1,574 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   
+   
+}
+.main{
+    background-image: linear-gradient(rgba(5, 5, 5, 0.918) 0,transparent 150%,rgba(0, 0, 0, 0.904)),
+    url("backgroundimg.jpg");
+    width: 100%;
+    background-size: cover;
+    border-bottom: solid grey 5px;
+}
+
+ .forhead{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 100%;
+    
+}
+
+.cornerlogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+}
+select{
+    height: 33px;
+    width: 100px;
+}
+.bi-globe{
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+.btn1{
+    width: 85px;
+    height: 30px;
+    color: white;
+    background-color: #E50914;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+}
+.btn2{
+   background: none;
+   border: white;
+   background: none;
+   color: white;
+  }
+.written{
+  width: 550px;
+}
+.textresponsive{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  padding-top: 100px;
+ 
+
+}
+.sp{
+ font-size: 16px;
+ margin-top: 40px;
+}
+.p1{
+  font-size: 22px;
+  margin-top: 10px;
+}
+.written h1{
+  font-size: 44px;
+}
+
+.email{ width: 390px;
+        height: 52px;   
+}
+.btn3{
+font-size: x-large;
+color: white;
+background-color: #E50914;
+border: none;
+width: 200px;
+height: 52px;
+
+}
+    .inputbtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        padding-bottom: 150px;
+    }
+    .box2{
+        width: 100%;
+        background-color: black;
+        display: flex;
+        border-bottom: solid grey 5px;
+        padding-top: 5%;
+        padding-bottom: 2.5%;
+    
+
+       
+    }
+    .box2_1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      width: 45%;
+    
+        
+        }
+      
+    .box2_2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 55%;
+
+ 
+    }
+   
+    .box2text h1{
+      font-size: 44px;
+    }
+    .video{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+
+        
+    }
+    .video img{
+        z-index: 2;
+    }
+    .video2{
+        position: absolute;
+       
+        height: auto;
+
+    }
+  
+    .box2text p{
+         font-size: 23px;
+         margin-top: 18px;
+    }
+    .box2_1{
+        width: 58%;
+    }
+    .box2text{
+   width: 500px;
+    }
+
+
+
+
+
+
+    
+    .box3{
+        display: flex;
+        width: 100%;
+        border-bottom: solid grey 5px;
+        background-color: black;
+        padding-bottom: 3%;
+        padding-top: 1%;
+    }
+    .box3_1{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box3_2{
+        width: 50%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .box3text{
+             color: white;
+             width: 542px;
+    }
+    .box3text h1{
+           font-size: 44px;
+    }
+    .box3text p{
+             font-size: 22px;
+             margin-top: 15px;
+    }
+    
+    .box4{
+        display: flex;
+        width: 100%;
+        border-bottom: solid grey 5px;
+        background-color: black;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .box4_1{
+    
+         width: 45%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+       
+        
+    }
+    .box4_2{width: 55%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding-top: 2%;
+    
+    }
+    .box4_2 img{
+        z-index: 2;
+    }
+    .lapimg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    
+    }
+    .videog{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 50%;
+        padding-bottom: 20%;
+    }
+    .box4text{
+                 color: white;
+               width: 440px; 
+               padding-left: 5%;
+    }
+    .box4text h1{
+               font-size: 43px;
+    }
+    .box4text p{
+                  font-size: 23px;
+                  margin-top: 20px;
+    }
+    .box5{
+        display: flex;
+        width: 100%;
+        border-bottom: solid grey 5px;
+        background-color: black;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 2%;
+        padding-right: 2%;
+    
+    }
+    .box5_1{ width: 50%;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+    .box5_2{ width: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .box5text{
+                color: white;
+                 width: 500px; 
+    }
+    .box5text h1{
+        font-size: 44px;
+    }
+    .box5text p{
+        font-size: 22px;
+        margin-top: 20px;
+    }
+    .box6_1 h1{
+        font-size: 45px;
+        text-align: center;
+    }
+    .box6{
+        width: 100%;
+        background-color:black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: solid grey 5px;
+        padding-top: 5%;
+        }
+      
+    .table{
+       
+      padding-top: 5%; 
+     }
+    .box6_2{
+         background-color: rgb(53, 52, 52);
+         color: white;
+         padding: 0 10px 0 10px;
+         width: 735px;
+        font-size: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .box6_2 p{
+        font-weight: lighter;
+        font-size: 50px;
+    }
+    .box6_3{
+        width: 100%;
+    }
+    .box6_3 p{
+        font-size:  17px;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .inputbtn2{
+        display: flex;
+        justify-content: center;
+        justify-content: baseline;
+        width: 100%;
+        margin-top: 15px;
+        padding-bottom: 50px;
+        padding-top: 10px;
+    }
+    
+    .btn7{
+        font-size: x-large;
+        color: white;
+        background-color: #E50914;
+        border: none;
+        width: 200px;
+        height: 52px;
+      
+    }
+    .lastinput{
+        width: 390px;
+        height: 52px;
+       
+    }
+
+   .box7{
+        background-color: black;
+        width: 100%;
+        color: whitesmoke;
+        border-bottom: solid rgba(30,30,30,255) 5px;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box7_2{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        justify-content: space-between;
+        width: 100%;
+        font-size: 12px;
+        margin-top: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: grey;
+    }
+    ul{
+        list-style: none;
+    }
+    .box7_1{
+        font-size: 14px;
+        color: grey;
+        padding-top: 50px;
+    }
+    .lists{
+         display: flex;
+         justify-content: space-evenly;
+         width: 50%;
+    }
+    .listss{
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+    }
+/* Media querry starts from here */
+
+
+@media screen and (max-width: 780px) {
+   .inputbtn{
+    display: flex;
+    flex-direction: column;
+   }
+   .email{
+    margin-top: 10%;
+   }
+
+   .btn3{
+    margin-top: 5%;
+   }
+   .bi-globe{
+    display: none;
+   }
+   .written{
+    width: 90%;
+}
+.textresponsive{
+    width: 100%;
+}
+.logo img{
+ width: 120px;
+}
+.cornerlogo{
+width: 200px;   
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+}
+.box2_1{
+    width: 100%;
+}
+.box2text{
+    width: 90%;
+    text-align: center;
+}
+.box2_2{
+    width: 100%;
+}
+.box3{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.box3_1{
+    width:100%;
+}
+.box3_2{
+    width: 100%;
+}
+.box3text{
+    width: 99%;
+    padding-top: 5%;
+    
+    text-align: center;
+}
+.box4{
+    display: flex;
+    flex-direction: column;
+}
+.box4_1{
+    width: 100%;
+}
+.box4_2{
+    width: 100%;
+}
+.box4text{
+    width: 99%;
+    text-align: center;
+}
+.box5{
+    display: flex;
+    flex-direction: column;
+    
+}
+.box5_1{
+    width: 100%;
+}
+.box5_2{
+    width: 100%;
+}
+.box5text{
+  width: 99%;
+    text-align: center;
+   
+}
+.table{
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.box6_2{
+    width: 100%;
+   
+}
+.inputbtn2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 10%;
+   
+}
+
+.lastinput{
+width: 90%;
+}
+.btn7{
+margin-top: 10px;
+margin-left: 20%;
+}
+
+  }
+  @media screen and (max-width: 917px){
+    .box2{
+        display: flex;
+        flex-direction: column;
+    }
+    .box2_1{
+        width: 100%;
+    }
+    .box2text{
+        width: 90%;
+    }
+    .box2_2{
+        width: 100%;
+    }
+    .lists{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10%;
+        justify-content: space-evenly;
+    }
+    .listss{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .box7_2{
+        display: flex;
+        justify-content: space-evenly;
+    
+    }
+    .list2{
+        margin-top: 10px;
+    }
+   
+}
+    @media screen and (max-width: 424px){
+
+
+.email{
+    width: 80%;
+}
+.video2 video{
+ 
+width: 90%;
+}
+.video img{
+    width: 90%;
+}
+.box3_1 img{
+    width: 90%;
+}
+.box5_1 img{
+    width: 90%;
+}
+.lapimg img{
+    width: 90%;
+
+}
+    }
